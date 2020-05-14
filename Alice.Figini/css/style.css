@@ -1,5 +1,10 @@
+html {
+    font-size: 16px;
+}
+
 body {
     background-image: url(../assets/background.png);
+    font-family: Arial, Helvetica, sans-serif;
 }
 main {
     background-color: #FBF1E8;
@@ -7,14 +12,33 @@ main {
 .title {
     color: #495cb0;
 text-transform: uppercase;
+font-family: sans-serif;
+font-weight: 800;
+}
+
+h1 {
+  font-size: 3rem;  
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.4rem;
 }
 
 h4 {
+   font-size: 1rem;
    color: #FAC55A
 }
 
 h5 {
+    font-size: 1.2rem;
    color: #F78470
+}
+img {
+
 }
 
 main {
@@ -38,4 +62,27 @@ main {
 
 .color-orange {
     color: #F78470;
+}
+
+.bold {
+ font-weight: bold;   
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14pt;
+}
+.row {
+    display: flex;
+}
+.column {
+    width: 50%;
+}
+.profile-picture {
+    background-image: url(assets/foto_profilo3.JPG);
+    background-size: contain;
+    border-radius: 50%;
+    width: 128px
 }
